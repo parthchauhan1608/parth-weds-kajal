@@ -1,0 +1,72 @@
+.nav-bar-container {
+	background: rgb(115, 11, 15);
+	background: radial-gradient(
+		circle,
+		rgba(115, 11, 15, 1) 0%,
+		rgba(79, 10, 10, 1) 52%,
+		rgba(64, 8, 8, 1) 100%
+	);
+	box-shadow: var(--longShadow);
+}
+
+.nav-logo {
+	color: var(--primaryColor) !important;
+	text-shadow: var(--text-shadow);
+	font-size: 1.7rem !important;
+	font-family: Precious;
+	padding: 0 !important;
+}
+
+.nav-bar-links-container {
+	margin: 0 auto !important;
+	justify-content: space-between !important;
+	width: 60% !important;
+	height: 50px !important;
+}
+
+@media (max-width: 861px) {
+	.nav-bar-links-container {
+		height: auto !important;
+		justify-content: flex-start !important;
+		width: auto !important;
+	}
+}
+
+.nav-bar-links {
+	color: var(--primaryColor) !important;
+	text-shadow: var(--text-shadow);
+	font-size: 1.2rem;
+}
+.navbar-toggler:focus {
+	outline: none;
+}
+.navbar-toggler-icon {
+	background-image: url(../../resources/images/hamberger-icon.png) !important;
+}
+
+.nav-bar-dropdown-container a {
+	color: var(--primaryColor) !important;
+	text-shadow: var(--text-shadow);
+	font-size: 1.2rem;
+}
+.nav-bar-dropdown-container .dropdown-menu {
+	background: rgb(115, 11, 15);
+	background: radial-gradient(
+		circle,
+		rgba(115, 11, 15, 1) 0%,
+		rgba(79, 10, 10, 1) 52%,
+		rgba(64, 8, 8, 1) 100%
+	);
+	top: 58px;
+}
+
+.nav-bar-dropdown-container .dropdown-menu .dropdown-item:focus,
+.nav-bar-dropdown-container .dropdown-menu .dropdown-item:hover {
+	background: transparent;
+	text-decoration: underline;
+}
+
+.nav-bar-dropdown-container .dropdown-item.active,
+.nav-bar-dropdown-container .dropdown-item:active {
+	background: transparent;
+}
