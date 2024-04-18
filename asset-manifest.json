@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/parth-weds-kajal/static/css/main.dd0b456a.chunk.css",
+    "main.js": "/parth-weds-kajal/static/js/main.a4987d93.chunk.js",
+    "main.js.map": "/parth-weds-kajal/static/js/main.a4987d93.chunk.js.map",
+    "runtime-main.js": "/parth-weds-kajal/static/js/runtime-main.9ba1046a.js",
+    "runtime-main.js.map": "/parth-weds-kajal/static/js/runtime-main.9ba1046a.js.map",
+    "static/css/2.b560ee55.chunk.css": "/parth-weds-kajal/static/css/2.b560ee55.chunk.css",
+    "static/js/2.e42c99b2.chunk.js": "/parth-weds-kajal/static/js/2.e42c99b2.chunk.js",
+    "static/js/2.e42c99b2.chunk.js.map": "/parth-weds-kajal/static/js/2.e42c99b2.chunk.js.map",
+    "index.html": "/parth-weds-kajal/index.html",
+    "precache-manifest.ecb9f94c4f78ec426ec22a142dc9dd91.js": "/parth-weds-kajal/precache-manifest.ecb9f94c4f78ec426ec22a142dc9dd91.js",
+    "service-worker.js": "/parth-weds-kajal/service-worker.js",
+    "static/css/2.b560ee55.chunk.css.map": "/parth-weds-kajal/static/css/2.b560ee55.chunk.css.map",
+    "static/css/main.dd0b456a.chunk.css.map": "/parth-weds-kajal/static/css/main.dd0b456a.chunk.css.map",
+    "static/js/2.e42c99b2.chunk.js.LICENSE.txt": "/parth-weds-kajal/static/js/2.e42c99b2.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/parth-weds-kajal/static/media/1.9fdab9d4.jpg",
+    "static/media/10.jpg": "/parth-weds-kajal/static/media/10.170dde01.jpg",
+    "static/media/11.jpg": "/parth-weds-kajal/static/media/11.943fac08.jpg",
+    "static/media/12.jpg": "/parth-weds-kajal/static/media/12.f8b7a10a.jpg",
+    "static/media/13.jpg": "/parth-weds-kajal/static/media/13.c905da42.jpg",
+    "static/media/2.jpg": "/parth-weds-kajal/static/media/2.9fdab9d4.jpg",
+    "static/media/3.jpg": "/parth-weds-kajal/static/media/3.ea930a8d.jpg",
+    "static/media/4.jpg": "/parth-weds-kajal/static/media/4.943fac08.jpg",
+    "static/media/5.jpg": "/parth-weds-kajal/static/media/5.cf6c578c.jpg",
+    "static/media/6.jpg": "/parth-weds-kajal/static/media/6.f8b10a6e.jpg",
+    "static/media/7.jpg": "/parth-weds-kajal/static/media/7.6f854fa2.jpg",
+    "static/media/8.jpg": "/parth-weds-kajal/static/media/8.d4f4ee0c.jpg",
+    "static/media/9.jpg": "/parth-weds-kajal/static/media/9.38dbeb09.jpg",
+    "static/media/App.css": "/parth-weds-kajal/static/media/bgVertical.bd5ba2e0.jpg",
+    "static/media/Mandala.png": "/parth-weds-kajal/static/media/Mandala.44e86cf5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ba1046a.js",
+    "static/css/2.b560ee55.chunk.css",
+    "static/js/2.e42c99b2.chunk.js",
+    "static/css/main.dd0b456a.chunk.css",
+    "static/js/main.a4987d93.chunk.js"
+  ]
+}
