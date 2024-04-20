@@ -40,7 +40,7 @@ export default function Timeline() {
 				>
 					<div className="timeline-title-container">
 						<h3 className="vertical-timeline-element-title">
-							Fist time meet
+							First time meet
 						</h3>
 						<Image
 							className="timeline-img-container"
@@ -49,7 +49,7 @@ export default function Timeline() {
 						></Image>
 					</div>
 					<p>
-						Story Line
+						Our love story began with a matchmaking orchestrated by our families. Bonding over our mutual love for travel and adventure, our conversations deepened, unveiling shared values and dreams. As time passed, the effortless connection between us became undeniable. With hearts in sync, our families joyfully sanctioned our union, and together, we embarked on a journey where love illuminated every step.
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -131,7 +131,7 @@ export default function Timeline() {
 					contentArrowStyle={{
 						borderRight: "7px solid  rgb(73, 73, 73)",
 					}}
-					date="22th Dec 2023"
+					date="22th Oct 2023"
 					dateClassName="timeline-date"
 					iconStyle={{
 						background:

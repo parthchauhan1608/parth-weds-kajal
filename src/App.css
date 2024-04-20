@@ -1,5 +1,6 @@
 :root {
-	--primaryColor: #ffc075; /*#dd1c1a;*/
+	--primaryColor: #ffc075;
+	/*#dd1c1a;*/
 	--mainWhite: #fff;
 	--mainRed: rgb(115, 11, 15);
 	--offWhite: #f7f7f7;
@@ -46,6 +47,7 @@
 	box-shadow: var(--longShadow) !important;
 	background: transparent !important;
 }
+
 .btn-primary:hover {
 	background: var(--primaryColor) !important;
 	color: var(--mainRed) !important;
@@ -68,6 +70,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .invitaionHero {
 	margin-top: 55px;
 	background: url("./resources/images/bg/bgMain.jpg") center/cover no-repeat;
@@ -75,9 +78,9 @@
 
 .timelineHero {
 	margin-top: 55px;
-	background: url("./resources/images/bg/bgVertical.jpg") center/cover
-		no-repeat;
+	background: url("./resources/images/bg/bgVertical.jpg") center/cover no-repeat;
 }
+
 /* End of Hero */
 
 /* Banner */
@@ -95,18 +98,22 @@
 	.banner {
 		padding: 2rem 3rem;
 	}
+
 	.banner h1 {
 		font-size: 3rem;
 	}
 }
+
 @media screen and (min-width: 992px) {
 	.banner {
 		padding: 2rem 6rem;
 	}
+
 	.banner h1 {
 		font-size: 4rem;
 	}
 }
+
 /* End of Banner */
 
 /* HomePage */
@@ -122,10 +129,12 @@
 	left: 45%;
 	transform: translate(-45%, -50%);
 }
+
 .timer-months,
 .timer-hours {
 	margin-bottom: 1rem;
 }
+
 .timer-months .odometer-block,
 .timer-hours .odometer-block {
 	display: flex;
@@ -133,8 +142,9 @@
 	align-items: center;
 	width: 10rem;
 }
-.timer-months .odometer-block > span,
-.timer-hours .odometer-block > span {
+
+.timer-months .odometer-block>span,
+.timer-hours .odometer-block>span {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -146,7 +156,7 @@
 	font-size: 2rem;
 }
 
-.timer-hours .odometer-block > span:first-child {
+.timer-hours .odometer-block>span:first-child {
 	display: none;
 }
 
@@ -158,6 +168,7 @@
 	font-size: 1.2rem;
 	text-align: center;
 }
+
 .invite-form {
 	display: flex;
 	flex-direction: column;
@@ -192,6 +203,7 @@
 	left: 45%;
 	transform: translate(-45%, -45%);
 }
+
 /* 
 .mandala {
 	height: 80vh;
@@ -206,8 +218,7 @@
 .mandala-fg {
 	height: 80vh;
 	/* min-height: 100vh; */
-	background: url("./resources/images/bg/MandalaTextFG.png") center/cover
-		no-repeat;
+	background: url("./resources/images/bg/MandalaTextFG.png") center/cover no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -224,6 +235,7 @@
 	from {
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: rotate(360deg);
 	}
@@ -251,6 +263,7 @@
 		font-size: 3rem;
 	}
 }
+
 .choose-side {
 	margin: auto;
 	width: 90%;
@@ -274,9 +287,11 @@
 	padding: 0.3rem !important;
 	text-align: center;
 }
+
 .side-container p {
 	margin: 0;
 }
+
 .side-title {
 	font-size: 2rem;
 	padding-bottom: 1rem;
@@ -324,10 +339,12 @@
 	margin: 0;
 	font-family: Precious;
 }
+
 .common-and {
 	font-family: EdwardianScript !important;
 	margin-right: 20px;
 }
+
 .common-subtitle {
 	text-align: center;
 	text-transform: capitalize;
@@ -349,9 +366,11 @@
 	.common-title-names-container {
 		font-size: 2.6rem;
 	}
+
 	.common-subtitle {
 		font-size: 1.1rem;
 	}
+
 	.common-date {
 		font-size: 2rem;
 	}
@@ -364,18 +383,17 @@
 	width: 85%;
 	text-align: center;
 	background: rgb(115, 11, 15);
-	background: radial-gradient(
-		circle,
-		rgba(115, 11, 15, 0.8746849081429446) 0%,
-		rgba(79, 10, 10, 0.8242647400757178) 52%,
-		rgba(64, 8, 8, 0.7934524151457458) 100%
-	);
+	background: radial-gradient(circle,
+			rgba(115, 11, 15, 0.8746849081429446) 0%,
+			rgba(79, 10, 10, 0.8242647400757178) 52%,
+			rgba(64, 8, 8, 0.7934524151457458) 100%);
 	box-shadow: var(--longShadow);
 	text-shadow: var(--text-shadow);
 }
 
 .invitation-title {
 	margin: 0;
+	margin-left: -25px !important;
 	color: var(--primaryColor);
 	font-family: EdwardianScript;
 	font-size: 5rem;
@@ -390,6 +408,7 @@
 	padding: 1.5rem 0;
 	width: 90%;
 }
+
 .invitation-subtext {
 	margin: auto;
 	color: var(--primaryColor);
@@ -402,6 +421,7 @@
 	.invitation-text {
 		font-size: 1.3rem;
 	}
+
 	.invitation-subtext {
 		font-size: 1rem;
 	}
@@ -416,6 +436,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 .event {
 	min-width: 25rem !important;
 	flex: 1;
@@ -424,12 +445,10 @@
 	text-align: center;
 	margin: 2rem;
 	background: rgb(115, 11, 15);
-	background: radial-gradient(
-		circle,
-		rgba(115, 11, 15, 0.98) 0%,
-		rgba(79, 10, 10, 0.94) 52%,
-		rgba(64, 8, 8, 0.9) 100%
-	);
+	background: radial-gradient(circle,
+			rgba(115, 11, 15, 0.98) 0%,
+			rgba(79, 10, 10, 0.94) 52%,
+			rgba(64, 8, 8, 0.9) 100%);
 	text-shadow: var(--text-shadow);
 	box-shadow: var(--longShadow);
 	background-color: transparent !important;
@@ -459,6 +478,7 @@
 		min-width: 100% !important;
 		margin: 1rem auto;
 	}
+
 	.event-name {
 		font-size: 1.5rem;
 		padding-bottom: 1rem;
@@ -478,11 +498,13 @@
 .address-container {
 	padding: 2rem;
 }
+
 .address-title {
 	border-bottom: 3px solid var(--primaryColor);
 	text-shadow: var(--text-shadow);
 	margin-bottom: 2rem;
 }
+
 .address-container p {
 	font-size: 1.2rem;
 }
@@ -496,6 +518,7 @@
 	.venue-container {
 		flex-direction: column;
 	}
+
 	.address-container {
 		text-align: center;
 	}
@@ -510,12 +533,10 @@
 /* Footer */
 .my-footer {
 	background: rgb(115, 11, 15);
-	background: radial-gradient(
-		circle,
-		rgba(115, 11, 15, 1) 0%,
-		rgba(79, 10, 10, 1) 52%,
-		rgba(64, 8, 8, 1) 100%
-	);
+	background: radial-gradient(circle,
+			rgba(115, 11, 15, 1) 0%,
+			rgba(79, 10, 10, 1) 52%,
+			rgba(64, 8, 8, 1) 100%);
 	height: 60px;
 	color: var(--primaryColor);
 	text-shadow: var(--text-shadow);
@@ -523,22 +544,27 @@
 	display: flex;
 	justify-content: center;
 }
+
 .my-footer p {
 	margin: 0;
 	font-size: 1.2rem;
 	text-align: center;
 }
+
 @keyframes pulse2 {
 	0% {
 		transform: scale(1.1);
 	}
+
 	50% {
 		transform: scale(0.8);
 	}
+
 	100% {
 		transform: scale(1);
 	}
 }
+
 .footer-heart {
 	color: #ff415c;
 	font-size: 18px;
@@ -574,6 +600,7 @@
 .vertical-timeline-element-title {
 	padding-bottom: 1rem;
 }
+
 .timeline-img-container {
 	border-radius: 0.5rem;
 	box-shadow: var(--longShadow);
@@ -585,7 +612,7 @@
 }
 
 .vertical-timeline-element-date {
-	font-size: 2rem !important;
+	font-size: 1.8rem !important;
 	padding: 0 !important;
 	opacity: 1 !important;
 	text-shadow: var(--text-shadow);

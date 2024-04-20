@@ -17,7 +17,7 @@ import img7 from "../resources/images/Slideshow/main/7.jpg";
 
 export default function LadkeWale() {
 	const textData = ladkewale[0];
-
+	const venueLocation = ladkewale[1].locations;
 	const slideshowImages = [
 		{
 			src: img1,
@@ -59,7 +59,7 @@ export default function LadkeWale() {
 			</div>
 			<Invitation textData={textData}></Invitation>
 			<Events events={textData.functions}></Events>
-			<Venue></Venue>
+			{venueLocation.map((location) => <Venue venueLocation={location}></Venue>)}
 			<Footer></Footer>
 		</>
 	);

@@ -18,6 +18,7 @@ import img7 from "../resources/images/Slideshow/main/7.jpg";
 
 export default function LadkiWale() {
 	const textData = ladkiwale[0];
+	const venueLocation = ladkiwale[1].locations;
 
 	const slideshowImages = [
 		{
@@ -61,7 +62,7 @@ export default function LadkiWale() {
 			</div>
 			<Invitation textData={textData}></Invitation>
 			<Events events={textData.functions}></Events>
-			<Venue></Venue>
+			{venueLocation.map((location) => <Venue venueLocation={location}></Venue>)}
 			<Footer></Footer>
 		</>
 	);

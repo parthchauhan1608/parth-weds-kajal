@@ -12,8 +12,6 @@ import img5 from "../resources/images/Slideshow/story/5.jpg";
 import img6 from "../resources/images/Slideshow/story/6.jpg";
 import img7 from "../resources/images/Slideshow/story/7.jpg";
 import img8 from "../resources/images/Slideshow/story/8.jpg";
-import img9 from "../resources/images/Slideshow/story/9.jpg";
-import img10 from "../resources/images/Slideshow/story/10.jpg";
 import img11 from "../resources/images/Slideshow/story/11.jpg";
 import img12 from "../resources/images/Slideshow/story/12.jpg";
 import img13 from "../resources/images/Slideshow/story/13.jpg";
@@ -43,12 +41,6 @@ export default function OurStoryPage() {
 		},
 		{
 			src: img8,
-		},
-		{
-			src: img9,
-		},
-		{
-			src: img10,
 		},
 		{
 			src: img11,
