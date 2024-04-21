@@ -167,7 +167,7 @@ export default function Timeline() {
 					contentArrowStyle={{
 						borderRight: "7px solid  rgb(45,193,14)",
 					}}
-					date="22nd Oct 2023"
+					date="7th Dec 2024"
 					iconStyle={{
 						background: "rgb(16, 204, 82)",
 						color: "#fff",
