@@ -43,6 +43,13 @@ export default function NavBar() {
 						>
 							Pagla Ceremony
 						</NavDropdown.Item>
+						<NavDropdown.Item
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://youtu.be/7d4WMGNPO8o"
+						>
+							Save The Date
+						</NavDropdown.Item>
 					</NavDropdown>
 					<Nav.Link className="nav-bar-links"></Nav.Link>
 				</Nav>

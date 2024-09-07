@@ -8,7 +8,7 @@ export const ladkiwale = [
 		firstNameSubtitle:
 			"(D/o Mr. Khodidashbhai Jivanbhai Jethava & Mrs. Nayanaben Khodidashbhai Jethava)",
 		secondNameSubtitle:
-			"(S/o Mr. Ashokbhai MaganBhai Chauha & Mrs. Rupalben Ashokbhai Chauhan)",
+			"(S/o Mr. Ashokbhai MaganBhai Chauhan & Mrs. Rupalben Ashokbhai Chauhan)",
 		description:
 			"Come and celebrate with us amid music, dance, fun, feast, laughter, joy and lots of love. Grace us with your presence and shower the new couple with wishes and blessings as they embark upon a new journey.",
 

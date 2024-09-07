@@ -65,9 +65,9 @@ export const ladkewale = [
 		locations: [
 			{
 				date: `6th Dec 2024`,
-				hallName: `Shivanand Nagar Association Wadi`,
-				address: `52, Sivanand Nagar, Ahmedabad, Gujarat 380024`,
-				mapLink: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d642.097755753142!2d72.63533821354854!3d23.01141301046856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e870025f53c81%3A0x8a7c30af2a7550c0!2sShivanand%20Nagar%20Association%20Wadi!5e0!3m2!1sen!2sin!4v1713580711565!5m2!1sen!2sin`
+				hallName: `A 401, Royal Homes`,
+				address: `opposite Satyamev Vista, Gota, Ahmedabad 382481`,
+				mapLink: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.9258629102783!2d72.53331947477247!3d23.099809613442446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83c9dae5ca49%3A0x6f1bda1c186336c7!2sRoyal%20Homes!5e0!3m2!1sen!2sin!4v1725685229485!5m2!1sen!2sin`
 			},
 			{
 				date: `7th Dec 2024`,
